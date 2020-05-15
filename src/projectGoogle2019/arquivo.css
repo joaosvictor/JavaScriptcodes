@@ -1,0 +1,14 @@
+.header{
+    height:78px;
+    background-color: black;
+}
+.h1{
+    margin-left: -1000px;
+}
+.footer{
+    height:150px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: Verdana;
+}
