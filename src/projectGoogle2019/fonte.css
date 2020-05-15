@@ -1,0 +1,211 @@
+.header{
+    height:78px;
+    background-color: black;
+}
+.footer{
+    height:150px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: Verdana;
+}
+#area{
+    font: normal 20pt Helvetica;
+       background-color: black;
+       color: white;
+       width: 700px;
+       height: 198px;
+       line-height: 200px;
+       text-align: center;
+   outline: 1px solid #000;
+   position: relative;
+   left: 50%;
+   margin-left: -349px;
+}
+.video{
+    width:594px;
+    height:400px;
+
+}
+.o{
+    font-family:  Helvetica;
+}
+.p{
+    font-family: Helvetica;
+}
+.oj{
+    font-family: Verdana;
+    color:white;
+}
+.pag1link{
+    font-family: Helvetica;
+    text-align: center;
+    color: black;
+    background-color: orange;
+
+}
+.h1{
+    margin-left: -1000px;
+}
+.body{
+    background-color: #d3d3d3;
+}
+.pag2link{
+    font-family: Helvetica;
+    text-align: center;
+    color: black;
+    background-color: lightgreen;
+
+}
+.hr{
+    border-color: #f4b400;
+    height: 4px;
+    background-color: #f4b400;
+}
+.hr1{
+    border-color: red;
+    height: 4px;
+    background-color: red;
+}
+.hr2{
+    border-color: #0f9d58;
+    height: 4px;
+    background-color: #0f9d58;
+}
+.hr3{
+    border-color: aqua;
+    height: 4px;
+    background-color: aqua;
+}
+.pag5link{
+    font-family: Helvetica;
+    text-align: center;
+    color: black;
+    background-color: #4585f4;
+
+}
+.musica{
+    height: 50px;
+    width: 478px;
+}
+.hr4{
+    border-color: #6a00f4b7;
+    height: 4px;
+    background-color: #6a00f4b7;
+}
+.hr5{
+    border-color: rgba(255, 209, 7, 0.945);
+    height: 4px;
+    background-color: rgba(255, 209, 7, 0.945);
+}
+.scrolldown{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    width: 40px;
+    height: 40px; 
+    transform: translateY(-80px ) translateX(-50%) rotate(45deg);
+}
+.scrolldown span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    animation: animate 1,5s linear infinite;
+    opacity: 0;
+}
+.scrolldown span:nth-child(1){
+    transform: translate(-15px, -15px);
+    animation-delay: -0,4s;
+}
+.scrolldown span:nth-child(2){
+    transform: translate(0,0);
+    animation-delay: -0,2s;
+}
+.scrolldown span:nth-child(3){
+    transform: translate(15px, 15px);
+    animation-delay: 0s;
+}
+@keyframes animate{
+   0%{
+       top: -5px;
+       left: -5px;
+       opacity: 0;
+   }
+   25%{
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+}
+50%, 100%{
+    top: 5px;
+    left: 5px;
+    opacity: 0;
+}
+
+}
+
+.some
+{
+    color: #df5d07;
+    font-family: Arial;
+}
+.pag3link{
+    font-family: Helvetica;
+    text-align: center;
+    color: black;
+    background-color: pink;
+}
+.aoba{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    background-color: orange;
+
+}
+.aoba2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    background-color: lightcoral;
+
+}
+.aoba3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    background-color: paleturquoise;
+
+}
+.aoba4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    background-color: bisque;
+
+}
+.aoba5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    background-color: plum;
+
+}
+.ok{
+    font-family:  Helvetica;
+    font-size: 18px;
+}
+.pont{
+    border-color: #95e601ef;
+    height: 4px;
+    background-color: #95e601ef;
+}
+.pont1{
+    border-color: #f40014b7;
+    height: 4px;
+    background-color: #f40014b7;
+}
