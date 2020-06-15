@@ -20,7 +20,7 @@ class Polygon {
         return this.my_perimeter;
     }
     
-}
+}//
 
 const rectangle = new Polygon([10, 20, 10, 20]);
 const square = new Polygon([10, 10, 10, 10]);
