@@ -47,6 +47,6 @@
       }
       tempo.innerText=count;
       setTimeout('start();', 100);
-
+//
     }
   }
