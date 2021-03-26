@@ -1,0 +1,52 @@
+.header{
+  background-color: #000000;
+}
+
+.fontheader{
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: #ffffff; 
+}
+
+.body{
+  background-color: #f4f5f2;
+}
+
+.boxed{
+  overflow: hidden;
+  position:relative;
+  max-width: 500px;
+  background-color: #ffffff;
+  margin-left: 0;
+  margin-right: 0;
+  margin: 50px auto;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+/*default set*/
+
+.labelg {
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.span{
+  font-family: 'Raleway', sans-serif;
+  margin: 20px auto;
+  display: block;
+  text-align: left;
+
+}
+
+.inputtext{
+  border-bottom: 1px double #171717;
+  padding:5px 5px;
+}
+
+.inputtext1{
+  border-bottom: 1px double #171717;
+  padding:12px 12px;
+}
